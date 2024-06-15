@@ -25,7 +25,7 @@ import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
 import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
 import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
 import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
-import profilepic from '../images/profilepic.jpg';
+import profilepic from '../images/reja-pic.jpg';
 import testimonialImage from '../images/testimonial.webp';
 import {
   About,
@@ -69,18 +69,13 @@ export type SectionId = (typeof SectionId)[keyof typeof SectionId];
  */
 export const heroData: Hero = {
   imageSrc: heroImage,
-  name: `I'm Tim Baker.`,
+  name: `I'm Reza Nur Rochmat.`,
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a Victoria based <strong className="text-stone-100">Full Stack Software Engineer</strong>, currently working
-        at <strong className="text-stone-100">Instant Domains</strong> helping build a modern, mobile-first, domain
-        registrar and site builder.
-      </p>
-      <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, you can catch me training in <strong className="text-stone-100">Muay Thai</strong>,
-        plucking my <strong className="text-stone-100">banjo</strong>, or exploring beautiful{' '}
-        <strong className="text-stone-100">Vancouver Island</strong>.
+        I'm a Yogyakarta Indonesia based <strong className="text-stone-100">Full Stack Software Engineer</strong>,
+        currently working at <strong className="text-stone-100">Vortex Buana Edumedia</strong> helping build a modern
+        web, mobile-first, domain registrar and site builder.
       </p>
     </>
   ),
@@ -104,16 +99,20 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Use this bio section as your way of describing yourself and saying what you do, what technologies you like
-  to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing
-  in.`,
+  description: `Hello folks. 
+My name Reza Nur Rochmat. You can call me Reza or Reja.
+I live in Yogyakarta Indonesia. As a software engineer with 5 years of experience, I have developed expertise in designing and implementing complex software systems. I have a strong understanding of programming languages and frameworks such as Java, Spring Boot, and React. 
+
+In my previous roles, I have experience in software development methodologies such as Agile, Scrum, and using CI/CD methodology which has enabled me to efficiently manage project timelines and budgets. 
+
+I am passionate about staying up-to-date with emerging technologies and trends, and regularly seek out opportunities to expand my skillsets.`,
   aboutItems: [
-    {label: 'Location', text: 'Victoria, BC', Icon: MapIcon},
-    {label: 'Age', text: '29', Icon: CalendarIcon},
-    {label: 'Nationality', text: 'Canadian / Irish', Icon: FlagIcon},
-    {label: 'Interests', text: 'Motorcycles, Muay Thai, Banjos', Icon: SparklesIcon},
-    {label: 'Study', text: 'University of Victoria', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'Instant Domains, inc.', Icon: BuildingOffice2Icon},
+    {label: 'Location', text: 'Yogyakarta Indonesia', Icon: MapIcon},
+    {label: 'Age', text: '30', Icon: CalendarIcon},
+    {label: 'Nationality', text: 'Indonesia', Icon: FlagIcon},
+    {label: 'Interests', text: 'Reading', Icon: SparklesIcon},
+    {label: 'Study', text: 'Gadjah Mada Vocational School', Icon: AcademicCapIcon},
+    {label: 'Employment', text: 'Vortex Buana Edumedia', Icon: BuildingOffice2Icon},
   ],
 };
 
@@ -126,15 +125,7 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'English',
-        level: 10,
-      },
-      {
-        name: 'French',
-        level: 4,
-      },
-      {
-        name: 'Spanish',
-        level: 3,
+        level: 8,
       },
     ],
   },
@@ -143,7 +134,7 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'React',
-        level: 9,
+        level: 8,
       },
       {
         name: 'Typescript',
@@ -152,6 +143,18 @@ export const skills: SkillGroup[] = [
       {
         name: 'GraphQL',
         level: 6,
+      },
+      {
+        name: 'Vue',
+        level: 7,
+      },
+      {
+        name: 'Next.js',
+        level: 6,
+      },
+      {
+        name: 'Bootstrap',
+        level: 8,
       },
     ],
   },
@@ -163,29 +166,61 @@ export const skills: SkillGroup[] = [
         level: 8,
       },
       {
-        name: 'Rust',
-        level: 5,
+        name: 'Java',
+        level: 9,
       },
       {
         name: 'Golang',
-        level: 4,
+        level: 5,
+      },
+      {
+        name: 'Spring Boot',
+        level: 9,
+      },
+      {
+        name: 'Ruby',
+        level: 7,
+      },
+      {
+        name: 'Ruby on Rails',
+        level: 7,
+      },
+      {
+        name: 'Postgres',
+        level: 8,
+      },
+      {
+        name: 'MongoDB',
+        level: 6,
+      },
+      {
+        name: 'Apache Kafka',
+        level: 7,
+      },
+      {
+        name: 'Redis',
+        level: 7,
       },
     ],
   },
   {
-    name: 'Mobile development',
+    name: 'Software development',
     skills: [
       {
-        name: 'React Native',
+        name: 'Git',
         level: 9,
       },
       {
-        name: 'Flutter',
-        level: 4,
+        name: 'Docker',
+        level: 9,
       },
       {
-        name: 'Swift',
-        level: 3,
+        name: 'SQL',
+        level: 9,
+      },
+      {
+        name: 'CI/CD',
+        level: 9,
       },
     ],
   },
