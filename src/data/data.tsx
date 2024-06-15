@@ -44,7 +44,7 @@ import {
  * Page meta data
  */
 export const homePageMeta: HomepageMeta = {
-  title: 'React Resume Template',
+  title: 'Reza Nur Rochmat CV | Full Stack Software Engineer',
   description: "Example site built with Tim Baker's react resume template",
 };
 
@@ -303,39 +303,157 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const education: TimelineItem[] = [
   {
-    date: 'April 2007',
-    location: 'Clown college',
-    title: 'Masters in Beer tasting',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
-  },
-  {
-    date: 'March 2003',
-    location: 'School of Business',
-    title: 'What did you study 101',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    date: 'Feb, 2017',
+    location: 'Gadjah Mada University',
+    title: 'Computer and Information System',
+    content: <p>GPA 3.10</p>,
   },
 ];
 
 export const experience: TimelineItem[] = [
   {
-    date: 'March 2010 - Present',
-    location: 'Awesome Development Company',
-    title: 'Senior UX Engineer',
+    date: 'Dec 2022 - Present',
+    location: 'Vortex Buana Edumedia',
+    title: 'Senior Software Engineer',
+    content: (
+      <div>
+        As Senior Software Engineer at Vortex my responsiblities is :
+        <ul>
+          <li>Manage 5++ monorepos project across 3 different project</li>
+          <li>Enhance developer experience using tagging mechanism on CI/CD</li>
+          <li>Suggest for using Docker Swarm for development</li>
+          <li>Suggest using Vault for storing secret management</li>
+          <li>Provide "Engineering Reviews" for helping blockers on each engineers </li>
+          <li>
+            Create "Engineering Handbook" on onboard accomodating for new engineers - Mentoring junior engineer for
+            using best practice on development
+          </li>
+          <li>Add new features on internal some products</li>
+          <li>Setup logging using Grafana-Loki stack</li>
+          <li>Setup error management using Sentry</li>
+          <li>Handle running container using Portainer</li>
+        </ul>
+      </div>
+    ),
+  },
+  {
+    date: 'Apr 2022 - Jul 2022',
+    location: 'Doku',
+    title: 'Java Developer',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+        <ul>
+          <li>Develop adding module on Credit Card backbone project</li>
+          <li>Develop add payment channel on kafka listener</li>
+        </ul>
       </p>
     ),
   },
   {
-    date: 'March 2007 - February 2010',
-    location: 'Garage Startup Studio',
-    title: 'Junior bug fixer',
+    date: 'Oct 2021 - Mar 2022',
+    location: 'Eduprime',
+    title: 'Java Developer',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+        <ul>
+          <li>Develop new features on assessment product</li>
+          <li>Adding unit test for backend codebases</li>
+          <li>Adding docker and configure CI/CD using Jenkins</li>
+        </ul>
+      </p>
+    ),
+  },
+  {
+    date: 'Mar 2021 - Dec 2021',
+    location: 'Rakamin Academy',
+    title: 'Backend Engineer and Fullstack Mentor',
+    content: (
+      <p>
+        <ul>
+          <li>Develop new features on LMS application</li>
+          <li>Sharing knowledge on student bootcamp</li>
+        </ul>
+      </p>
+    ),
+  },
+  {
+    date: 'Sep 2019 - Feb 2023',
+    location: 'Binar Academy',
+    title: 'Course Faciliator and Backend Engineer',
+    content: (
+      <p>
+        <ul>
+          <li>Develop new features on LMS application</li>
+          <li>Sharing knowledge on student bootcamp</li>
+        </ul>
+      </p>
+    ),
+  },
+  {
+    date: 'Jul 2020 - Jan 2021',
+    location: 'Hilotech',
+    title: 'Frontend Engineer',
+    content: (
+      <p>
+        <ul>
+          <li>Develop new application Training Management Systems</li>
+          <li>Develop new features on TMS</li>
+        </ul>
+      </p>
+    ),
+  },
+  {
+    date: 'Apr 2020 - Aug 2020',
+    location: 'Fintax',
+    title: 'Java Developer',
+    content: (
+      <p>
+        <ul>
+          <li>Rewritting existing some functionality module</li>
+          <li>Connect from existing backend to third parties application</li>
+          <li>Adding new docker for easy deployment</li>
+        </ul>
+      </p>
+    ),
+  },
+  {
+    date: 'Mar 2018 - Aug 2019',
+    location: 'BSI UII',
+    title: 'Fullstack Engineer',
+    content: (
+      <p>
+        <ul>
+          <li>Develop new features on internal systems</li>
+          <li>Develop adding documentation for development process</li>
+          <li>Develop new application HCM</li>
+        </ul>
+      </p>
+    ),
+  },
+  {
+    date: 'Jul 2017 - Jan 2018',
+    location: 'Indomerapi',
+    title: 'Web Developer and Staff Support',
+    content: (
+      <p>
+        <ul>
+          <li>Develop new website catalog product</li>
+          <li>Troubleshooting internal employee personal computer</li>
+          <li>Develop new website inventory product</li>
+        </ul>
+      </p>
+    ),
+  },
+  {
+    date: 'Mar 2017 - Jun 2017',
+    location: 'Golab',
+    title: 'Web Developer',
+    content: (
+      <p>
+        <ul>
+          <li>Develop new features medical application</li>
+          <li>Research and development backend stack</li>
+        </ul>
       </p>
     ),
   },
@@ -375,23 +493,23 @@ export const contact: ContactSection = {
   items: [
     {
       type: ContactType.Email,
-      text: 'reachout@timbaker.me',
-      href: 'mailto:reachout@timbaker.me',
+      text: 'rezanurrochmat@gmail.com',
+      href: 'mailto:rezanurrochmat@gmail.com',
     },
     {
       type: ContactType.Location,
-      text: 'Victoria BC, Canada',
-      href: 'https://www.google.ca/maps/place/Victoria,+BC/@48.4262362,-123.376775,14z',
+      text: 'Yogyakarta, Indonesia',
+      href: 'https://maps.app.goo.gl/tGWGWGJYkNpoqSmDA',
     },
     {
       type: ContactType.Instagram,
-      text: '@tbakerx',
-      href: 'https://www.instagram.com/tbakerx/',
+      text: '@rezanur13',
+      href: 'https://www.instagram.com/rezanur13/',
     },
     {
       type: ContactType.Github,
-      text: 'tbakerx',
-      href: 'https://github.com/tbakerx',
+      text: 'RezaNurRochmat13',
+      href: 'https://github.com/RezaNurRochmat13',
     },
   ],
 };
@@ -400,9 +518,7 @@ export const contact: ContactSection = {
  * Social items
  */
 export const socialLinks: Social[] = [
-  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/tbakerx'},
-  {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'},
-  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/timbakerx/'},
-  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/reactresume/'},
-  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/TimBakerx'},
+  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/RezaNurRochmat13'},
+  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/reza-nur-rochmat/'},
+  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/rezanur13/'},
 ];
