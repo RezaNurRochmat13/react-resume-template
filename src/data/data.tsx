@@ -339,12 +339,12 @@ export const experience: TimelineItem[] = [
     location: 'Doku',
     title: 'Java Developer',
     content: (
-      <p>
+      <div>
         <ul>
           <li>Develop adding module on Credit Card backbone project</li>
           <li>Develop add payment channel on kafka listener</li>
         </ul>
-      </p>
+      </div>
     ),
   },
   {
@@ -352,13 +352,13 @@ export const experience: TimelineItem[] = [
     location: 'Eduprime',
     title: 'Java Developer',
     content: (
-      <p>
+      <div>
         <ul>
           <li>Develop new features on assessment product</li>
           <li>Adding unit test for backend codebases</li>
           <li>Adding docker and configure CI/CD using Jenkins</li>
         </ul>
-      </p>
+      </div>
     ),
   },
   {
@@ -366,12 +366,12 @@ export const experience: TimelineItem[] = [
     location: 'Rakamin Academy',
     title: 'Backend Engineer and Fullstack Mentor',
     content: (
-      <p>
+      <div>
         <ul>
           <li>Develop new features on LMS application</li>
           <li>Sharing knowledge on student bootcamp</li>
         </ul>
-      </p>
+      </div>
     ),
   },
   {
@@ -379,12 +379,12 @@ export const experience: TimelineItem[] = [
     location: 'Binar Academy',
     title: 'Course Faciliator and Backend Engineer',
     content: (
-      <p>
+      <div>
         <ul>
           <li>Develop new features on LMS application</li>
           <li>Sharing knowledge on student bootcamp</li>
         </ul>
-      </p>
+      </div>
     ),
   },
   {
@@ -392,12 +392,12 @@ export const experience: TimelineItem[] = [
     location: 'Hilotech',
     title: 'Frontend Engineer',
     content: (
-      <p>
+      <div>
         <ul>
           <li>Develop new application Training Management Systems</li>
           <li>Develop new features on TMS</li>
         </ul>
-      </p>
+      </div>
     ),
   },
   {
@@ -405,13 +405,13 @@ export const experience: TimelineItem[] = [
     location: 'Fintax',
     title: 'Java Developer',
     content: (
-      <p>
+      <div>
         <ul>
           <li>Rewritting existing some functionality module</li>
           <li>Connect from existing backend to third parties application</li>
           <li>Adding new docker for easy deployment</li>
         </ul>
-      </p>
+      </div>
     ),
   },
   {
@@ -419,13 +419,13 @@ export const experience: TimelineItem[] = [
     location: 'BSI UII',
     title: 'Fullstack Engineer',
     content: (
-      <p>
+      <div>
         <ul>
           <li>Develop new features on internal systems</li>
           <li>Develop adding documentation for development process</li>
           <li>Develop new application HCM</li>
         </ul>
-      </p>
+      </div>
     ),
   },
   {
@@ -433,13 +433,13 @@ export const experience: TimelineItem[] = [
     location: 'Indomerapi',
     title: 'Web Developer and Staff Support',
     content: (
-      <p>
+      <div>
         <ul>
           <li>Develop new website catalog product</li>
           <li>Troubleshooting internal employee personal computer</li>
           <li>Develop new website inventory product</li>
         </ul>
-      </p>
+      </div>
     ),
   },
   {
@@ -447,12 +447,12 @@ export const experience: TimelineItem[] = [
     location: 'Golab',
     title: 'Web Developer',
     content: (
-      <p>
+      <div>
         <ul>
           <li>Develop new features medical application</li>
           <li>Research and development backend stack</li>
         </ul>
-      </p>
+      </div>
     ),
   },
 ];
@@ -464,19 +464,16 @@ export const testimonial: TestimonialSection = {
   imageSrc: testimonialImage,
   testimonials: [
     {
-      name: 'John Doe',
-      text: 'Use this as an opportunity to promote what it is like to work with you. High value testimonials include ones from current or past co-workers, managers, or from happy clients.',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/169.jpg',
+      name: 'Bian Pratama',
+      text: `Reza is a quick learner, has strong communication skills, and is a great leader. He is able to adapt quickly to new technologies and consistently deliver high-quality work within tight timelines. Reza's communication skills are exceptional, making them a valuable collaborator and able to explain complex technical concepts to non-technical stakeholders.Reza is also a caring leader who values their team members and fosters a positive work environment. He takes the time to listen, provide guidance, and mentor others to help them grow. Kudos to you, mate!`,
+      image:
+        'https://media.licdn.com/dms/image/C5603AQF92ggM_HmAiQ/profile-displayphoto-shrink_100_100/0/1517612865319?e=1723680000&v=beta&t=crwJl_a296qAx05gZPk7nI4zDstIYZXuteSwq6IHxag',
     },
     {
-      name: 'Jane Doe',
-      text: 'Here you should write some nice things that someone has said about you. Encourage them to be specific and include important details (notes about a project you were on together, impressive quality produced, etc).',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/14.jpg',
-    },
-    {
-      name: 'Someone else',
-      text: 'Add several of these, and keep them as fresh as possible, but be sure to focus on quality testimonials with strong highlights of your skills/work ethic.',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/69.jpg',
+      name: 'Jessica Tessalonika',
+      text: 'Working with Reza was a blast! In our Team, he delivered top-notch service experiences for developers. Reza creativity, speed, and precision always stood out. His critical thinking added immense value, providing effective contributions and bringing forth intriguing ideas. Collaboration was a breeze with Reza in the team – a true team player! ',
+      image:
+        'https://media.licdn.com/dms/image/D5603AQEBJielgu9Jfg/profile-displayphoto-shrink_100_100/0/1695465071047?e=1723680000&v=beta&t=PWqPXwwOCO9SlNCbWO3aZ5pmYOPNKLKXK5pzZIfXUMI',
     },
   ],
 };
