@@ -63,6 +63,7 @@ const ItemOverlay: FC<{item: PortfolioItem}> = memo(({item: {url, title, descrip
 
   return (
     <a
+      aria-label="Project Link"
       className={classNames(
         'absolute inset-0 h-full w-full  bg-gray-900 transition-all duration-300',
         {'opacity-0 hover:opacity-80': !mobile},

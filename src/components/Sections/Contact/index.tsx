@@ -46,6 +46,7 @@ const Contact: FC = memo(() => {
                     <dt className="sr-only">{srLabel}</dt>
                     <dd className="flex items-center">
                       <a
+                        aria-label="Profile Link"
                         className={classNames(
                           '-m-2 flex rounded-md p-2 text-neutral-300 hover:text-orange-500 focus:outline-none focus:ring-2 focus:ring-orange-500',
                           {'hover:text-white': href},
