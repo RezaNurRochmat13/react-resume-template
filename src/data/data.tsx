@@ -76,7 +76,7 @@ export const heroData: Hero = {
   ),
   actions: [
     {
-      href: '/assets/resume.pdf',
+      href: 'https://drive.google.com/file/d/1aPV-0P3RoDsOZk0WG8ywi9guzk1yP6qh/view?usp=drive_link',
       text: 'Resume',
       primary: true,
       Icon: ArrowDownTrayIcon,
@@ -94,13 +94,7 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Hello folks. 
-My name Reza Nur Rochmat. You can call me Reza or Reja.
-I live in Yogyakarta Indonesia. As a software engineer with 5 years of experience, I have developed expertise in designing and implementing complex software systems. I have a strong understanding of programming languages and frameworks such as Java, Spring Boot, and React. 
-
-In my previous roles, I have experience in software development methodologies such as Agile, Scrum, and using CI/CD methodology which has enabled me to efficiently manage project timelines and budgets. 
-
-I am passionate about staying up-to-date with emerging technologies and trends, and regularly seek out opportunities to expand my skillsets.`,
+  description: `Experienced software engineer with 7 years of experience in designing and implementing complex software systems. I have developed expertise in designing and implementing complex software systems. I have a strong understanding of programming languages and frameworks such as Java, Spring Boot, Ruby, Rails, Javascript, React and ExpressJS.`,
   aboutItems: [
     {label: 'Location', text: 'Yogyakarta Indonesia', Icon: MapIcon},
     {label: 'Age', text: '30', Icon: CalendarIcon},
@@ -289,26 +283,39 @@ export const education: TimelineItem[] = [
 
 export const experience: TimelineItem[] = [
   {
-    date: 'Dec 2022 - Present',
+    date: 'Dec 2022 - Dec 2024',
     location: 'Vortex Buana Edumedia',
     title: 'Senior Software Engineer',
     content: (
       <div>
         As Senior Software Engineer at Vortex my responsiblities is :
         <ul>
-          <li>Manage 5++ monorepos project across 3 different project</li>
-          <li>Enhance developer experience using tagging mechanism on CI/CD</li>
-          <li>Suggest for using Docker Swarm for development</li>
-          <li>Suggest using Vault for storing secret management</li>
-          <li>Provide "Engineering Reviews" for helping blockers on each engineers </li>
-          <li>
-            Create "Engineering Handbook" on onboard accomodating for new engineers - Mentoring junior engineer for
-            using best practice on development
-          </li>
-          <li>Add new features on internal some products</li>
-          <li>Setup logging using Grafana-Loki stack</li>
-          <li>Setup error management using Sentry</li>
-          <li>Handle running container using Portainer</li>
+          <li>Managed more than 5 monorepos across 3 projects, ensuring streamlined development workflows and reducing deployment issues.</li>
+          <li>EConducted Engineering Reviews to identify blockers, mentor engineers, and improve code quality, leading to a 20% reduction in review time.</li>
+          <li>Authored the Engineering Handbook, creating a comprehensive resource for onboarding new engineers, reducing onboarding time by 30%.</li>
+          <li>Mentored junior engineers in best practices for software development, improving their efficiency and code maintainability.</li>
+          <li>Maintained and optimized core products, including Neon, ensuring high performance and reliability for users.</li>
+          <li>Enhanced the developer experience by implementing a tagging mechanism in CI/CD pipelines, increasing deployment clarity and traceability.</li>
+          <li>Recommended and advocated for Docker Swarm as a development environment, improving resource efficiency and team collaboration.</li>
+          <li>Proposed the adoption of HashiCorp Vault for secure secret management, improving compliance with security standards.</li>
+          <li>Set up error monitoring with Sentry, reducing debugging time and improving error resolution rates by 15%.</li>
+          <li>Managed and monitored running containers using Portainer, improving container uptime and simplifying maintenance workflows.</li>
+        </ul>
+      </div>
+    ),
+  },
+  {
+    date: 'Feb 2022 - Feb 2023',
+    location: 'Binar Academy',
+    title: 'Course Facilitator',
+    content: (
+      <div>
+        <ul>
+          <li>Mentored students in Fullstack Development, covering core technologies such as JavaScript, Node.js, React, Express, and PostgreSQL, to build modern web applications.</li>
+          <li>Designed and delivered structured learning materials, including coding exercises, real-world projects, and hands-on labs, enhancing students practical skills and problem-solving abilities.</li>
+          <li> Conducted regular code reviews and provided personalized feedback to help students improve code quality, follow best practices, and understand software development principles.</li>
+          <li>Facilitated workshops on industry-relevant topics, including CI/CD pipelines, version control with Git, and RESTful API design, preparing students for real-world engineering challenges.</li>
+          <li>Supported students in debugging, troubleshooting, and optimizing their code, fostering independence and critical thinking.</li>
         </ul>
       </div>
     ),
@@ -320,8 +327,10 @@ export const experience: TimelineItem[] = [
     content: (
       <div>
         <ul>
-          <li>Develop adding module on Credit Card backbone project</li>
-          <li>Develop add payment channel on kafka listener</li>
+          <li>Developed and maintained the CreditCard Backbone API, enabling seamless integration with new payment channels to support expanded business operations.</li>
+          <li>Ensured high system reliability and optimized performance for core payment processing.</li>
+          <li>Implemented a new Check Status API to integrate the Bank Jago payment channel using Kafka, improving transaction processing efficiency.</li>
+          <li>Enhanced real-time payment status updates by leveraging Redis for caching, reducing query response times.</li>
         </ul>
       </div>
     ),
@@ -333,9 +342,12 @@ export const experience: TimelineItem[] = [
     content: (
       <div>
         <ul>
-          <li>Develop new features on assessment product</li>
-          <li>Adding unit test for backend codebases</li>
-          <li>Adding docker and configure CI/CD using Jenkins</li>
+          <li>Developed and implemented new features for the assessment product, enhancing functionality and user experience.</li>
+          <li>Increased code reliability and maintainability by adding comprehensive unit tests for backend codebases.</li>
+          <li>Integrated Docker for containerization, simplifying deployment processes and improving developer workflows.</li>
+          <li>Configured CI/CD pipelines using Jenkins, automating testing and deployment, which reduced deployment time and errors.</li>
+          <li>Segmented environments for testing and production, ensuring secure and isolated development processes.</li>
+          <li>Advocated and implemented DevOps culture, fostering collaboration between development and operations teams and improving deployment efficiency.</li>
         </ul>
       </div>
     ),
@@ -347,8 +359,12 @@ export const experience: TimelineItem[] = [
     content: (
       <div>
         <ul>
-          <li>Develop new features on LMS application</li>
-          <li>Sharing knowledge on student bootcamp</li>
+          <li>Designed and implemented new features for LMS products, enhancing functionality and improving the user experience for both educators and learners.</li>
+          <li>Collaborated with cross-functional teams to identify feature requirements, ensuring alignment with user needs and business goals.</li>
+          <li>Optimized backend performance for key LMS features, resulting in improved system responsiveness and scalability.</li>
+          <li>Refactored existing codebases to adopt best practices, reducing technical debt and increasing maintainability.</li>
+          <li>Mentored students in Fullstack Development, focusing on core backend technologies such as Java, Spring Boot, and PostgreSQL, as well as frontend tools like JavaScript, React, and Node.js, enabling them to build scalable and maintainable web applications.</li>
+          <li>Designed and delivered structured learning materials, including coding exercises, Spring Boot microservices projects, and hands-on labs, enhancing students’ problem-solving abilities and real-world coding proficiency.</li>
         </ul>
       </div>
     ),
@@ -360,8 +376,13 @@ export const experience: TimelineItem[] = [
     content: (
       <div>
         <ul>
-          <li>Develop new features on LMS application</li>
-          <li>Sharing knowledge on student bootcamp</li>
+          <li>Mentored students in Fullstack Development, focusing on core backend technologies such as Java, Spring Boot, and PostgreSQL, as well as frontend tools like JavaScript, React, and Node.js, enabling them to build scalable and maintainable web applications</li>
+          <li>Designed and delivered structured learning materials, including coding exercises, Spring Boot microservices projects, and hands-on labs, enhancing students’ problem-solving abilities and real-world coding proficiency.</li>
+          <li>Conducted code reviews with a focus on improving code quality, adherence to SOLID principles, and best practices for Spring-based applications, helping students adopt professional development standards.</li>
+          <li>Facilitated workshops on RESTful API design using Spring Boot, CI/CD pipelines with Jenkins, and version control with Git, preparing students for engineering roles in industry.</li>
+          <li>Designed and implemented new features for CMS products, improving usability and enabling better content management for end users.</li>
+          <li>Collaborated with cross-functional teams to gather requirements and ensure feature alignment with business goals.</li>
+          <li>Enhanced UI/UX by integrating dynamic components using modern frameworks (e.g., React, Vue.js).</li>
         </ul>
       </div>
     ),
@@ -373,8 +394,10 @@ export const experience: TimelineItem[] = [
     content: (
       <div>
         <ul>
-          <li>Develop new application Training Management Systems</li>
-          <li>Develop new features on TMS</li>
+          <li>Designed and developed a new frontend application for the Training Management System (TMS), enabling a seamless and user-friendly interface for administrators and users.</li>
+          <li>Implemented new features in the TMS application to improve functionality and enhance the overall user experience.</li>
+          <li>Optimized frontend performance through efficient state management and modular code design, reducing load times.</li>
+          <li>Integrated responsive design principles to ensure compatibility across devices, improving accessibility for users on mobile and desktop platforms.</li>
         </ul>
       </div>
     ),
@@ -386,9 +409,9 @@ export const experience: TimelineItem[] = [
     content: (
       <div>
         <ul>
-          <li>Rewritting existing some functionality module</li>
-          <li>Connect from existing backend to third parties application</li>
-          <li>Adding new docker for easy deployment</li>
+          <li>Migrated core backend APIs from Ruby on Rails to Spring Boot, improving system performance, scalability, and maintainability.</li>
+          <li>Designed and implemented new modules to integrate internal APIs with DJP Agent, streamlining data flow and ensuring seamless connectivity.</li>
+          <li>Implemented Docker for containerization of the core API, enabling consistent deployment across multiple environments and reducing deployment errors.</li>
         </ul>
       </div>
     ),
@@ -400,9 +423,15 @@ export const experience: TimelineItem[] = [
     content: (
       <div>
         <ul>
-          <li>Develop new features on internal systems</li>
-          <li>Develop adding documentation for development process</li>
-          <li>Develop new application HCM</li>
+          <li>Enhanced UIIPersonal modules, improving functionality and user experience for Human Resource Information Systems (HRIS).</li>
+          <li>Optimized workflows within HRIS by identifying and resolving bottlenecks in existing modules.</li>
+          <li>Improved development tools for UIIPersonal using Golang and Angular, increasing developer productivity and reducing bug occurrences in the application.</li>
+          <li>Refined tools for managing microservices across multiple products in UIIGateway, ensuring seamless communication and integration between services.</li>
+          <li>Streamlined microservices deployment by implementing scalable solutions, reducing downtime and improving service reliability by 20%.</li>
+          <li>Introduced best practices for microservice monitoring and error handling, enhancing the observability and maintainability of systems.</li>
+          <li>Enhanced and refined UIIPersonal modules on the frontend, ensuring a seamless and intuitive user experience by optimizing UI components and addressing performance bottlenecks.</li>
+          <li> Collaborated closely with designers and stakeholders to align frontend features with user needs, improving satisfaction and usability.</li>
+          <li>Optimized and refined development tools for UIIPersonal, streamlining workflows and reducing development time for both frontend and backend engineers.</li>
         </ul>
       </div>
     ),
@@ -414,9 +443,9 @@ export const experience: TimelineItem[] = [
     content: (
       <div>
         <ul>
-          <li>Develop new website catalog product</li>
-          <li>Troubleshooting internal employee personal computer</li>
-          <li>Develop new website inventory product</li>
+          <li>Designed and developed a new catalog website for product listings, improving user experience and enabling better product visibility.</li>
+          <li>Built and deployed a new inventory management website, streamlining product tracking and reducing manual errors for internal operations.</li>
+          <li>Collaborated with stakeholders to define requirements and ensure both websites met business needs efficiently.</li>
         </ul>
       </div>
     ),
@@ -428,8 +457,24 @@ export const experience: TimelineItem[] = [
     content: (
       <div>
         <ul>
-          <li>Develop new features medical application</li>
-          <li>Research and development backend stack</li>
+          <li>Developed new features for a medical application, contributing to its core functionality and improving the user experience for healthcare professionals and patients.</li>
+          <li>Collaborated with cross-functional teams to ensure the application met regulatory and security standards, ensuring patient data privacy.</li>
+          <li>Conducted research and development on the backend stack using Rails, optimizing system performance and introducing best practices to improve scalability and maintainability.</li>
+          <li>Contributed to the integration of new technologies, such as API improvements and database optimizations, increasing efficiency and reducing system bottlenecks.</li>
+        </ul>
+      </div>
+    ),
+  },
+  {
+    date: 'Aug 2015 - Oct 2015',
+    location: 'PT Aino Indonesia',
+    title: 'Intern Web Developer',
+    content: (
+      <div>
+        <ul>
+          <li>Developed new features for a asset management application, contributing to its core functionality and improving the user experience.</li>
+          <li>Collaborated with cross-functional teams to ensure the application met regulatory and bussiness flow.</li>
+          <li>Enhanced application when use charts for better visualizations.</li>
         </ul>
       </div>
     ),
